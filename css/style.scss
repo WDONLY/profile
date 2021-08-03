@@ -1,0 +1,659 @@
+@charset "utf-8";
+
+#wrap {
+	font-family: 'Poppins', 'Gothic A1', 'Noto Sans KR';
+	color: #222;
+	> header {
+		position: relative;
+		height: 714px;
+
+		> .logo {
+			position: absolute;
+			left: 50%;
+			margin-left: -630px;
+			top: 20px;
+			width: 150px;
+			background-image: url(./../images/logo.png);
+			z-index: 1000;
+
+			> a {
+				display: block;
+				height: 60px;
+				text-indent: -9999px;
+			}
+		}
+		> .side {
+			position: absolute;
+			left: 50%;
+			margin-left: -750px;
+			top: 50%;
+			margin-top: 20px;
+			width: 250px;
+			height: 15px;
+			transform: rotate(90deg);
+			z-index: 1000;
+		}
+
+		> nav {
+			position: absolute;
+			left: 50%;
+			margin-left: -650px;
+			bottom: 50%;
+			margin-bottom: -357px;
+			width: 850px;
+			// border: 1px solid #000;
+			background-color: rgba(255, 255, 255, 0.353);
+			z-index: 1000;
+
+			> .gnb {
+				display: flex;
+				justify-content: space-around;
+				> li {
+					width: 130px;
+					> a {
+						display: block;
+						height: 60px;
+						line-height: 60px;
+						text-align: center;
+					}
+				}
+			}
+		}
+	} //end of header
+	> #intro {
+		position: absolute;
+		left: 50%;
+		margin-left: -650px;
+		top: 0;
+		width: 1300px;
+		height: 714px;
+		background-image: url(./../images/intro4.jpg);
+		background-position: center center;
+
+		> .harf {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 650px;
+			height: 700px;
+			background-image: url(./../images/blur.png);
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+	} //end of intro
+	> #aboutme {
+		position: relative;
+		> .profile {
+			position: absolute;
+			left: 50%;
+			margin-left: -650px;
+			top: 0;
+			width: 1300px;
+			height: 714px;
+			background-color: #f0ede0;
+			> h3 {
+				position: absolute;
+				left: 20px;
+				top: 10px;
+
+				width: 150px;
+				height: 60px;
+				background-image: url(./../images/logo.png);
+				text-indent: -9999px;
+			}
+			> .frame {
+				position: absolute;
+				left: 50%;
+				margin-left: -550px;
+				top: 50%;
+				margin-top: -150px;
+				width: 450px;
+				height: 550px;
+				&:after {
+					width: 100%;
+					position: absolute;
+					left: 50%;
+					margin-left: 300px;
+					top: 50%;
+					margin-top: -230px;
+					width: 1px;
+					height: 250px;
+					background-color: #bdb8a7;
+					content: '';
+				}
+				> img {
+					display: block;
+					width: 100%;
+				}
+			}
+			> .name {
+				position: absolute;
+				left: 50%;
+				margin-left: -450px;
+				top: 50%;
+				margin-top: 210px;
+				font-size: 16px;
+				font-weight: 700;
+				font-family: 'Gothic A1';
+			}
+			> .cont {
+				position: absolute;
+				right: 50%;
+				margin-right: -600px;
+				top: 50%;
+				margin-top: -100px;
+				font-size: 15px;
+				font-weight: 500;
+				font-family: 'Gothic A1-Medium';
+				line-height: 2;
+
+				> .title {
+					font-size: 18px;
+					font-weight: 800;
+				}
+				> .edu {
+					> .in {
+						margin-left: 96px;
+					}
+				}
+				> .tools {
+					position: absolute;
+					left: 50%;
+					margin-left: -200px;
+					top: 50%;
+					margin-top: 140px;
+					width: 430px;
+					height: 84px;
+				}
+				> img {
+					display: block;
+					width: 100%;
+				}
+			}
+		} //end of profile
+		> .othersays {
+			position: absolute;
+			left: 50%;
+			margin-left: -650px;
+			margin-top: 714px;
+			width: 1300px;
+			height: 714px;
+			background-color: #e6e2d4;
+
+			> h3 {
+				position: absolute;
+				left: 20px;
+				top: 10px;
+				width: 150px;
+				height: 60px;
+				background-image: url(./../images/logo.png);
+				text-indent: -9999px;
+			}
+			> .title {
+				position: absolute;
+				left: 50%;
+				margin-left: -480px;
+				top: 50%;
+				margin-top: -250px;
+				font-size: 23px;
+				font-weight: 500;
+				&:after {
+					position: absolute;
+					left: 50%;
+					margin-left: -120px;
+					margin-top: 10px;
+					display: block;
+					width: 250px;
+					height: 1px;
+					background-color: #bdb8a7;
+					content: '';
+				}
+			}
+			> .big {
+				display: flex;
+				justify-content: space-around;
+				position: absolute;
+				left: 50%;
+				margin-left: -500px;
+				top: 50%;
+				margin-top: -150px;
+				width: 1000px;
+
+				font-size: 13px;
+				font-weight: 500;
+
+				> .small-one {
+					width: 250px;
+					height: 380px;
+					padding: 10px;
+					line-height: 1.8;
+					align-items: center;
+					border: 1px solid #dad7cb;
+					> .name {
+						margin-top: 40px;
+						margin-left: 20px;
+						font-weight: 600;
+					}
+					> .frame {
+						float: right;
+						margin-right: 10px;
+						margin-top: 5px;
+						width: 100px;
+						height: 150px;
+						> img {
+							display: block;
+							width: 100%;
+						}
+					}
+				}
+				> .small-two {
+					width: 250px;
+					height: 380px;
+					padding: 10px;
+					line-height: 1.8;
+					align-items: center;
+					border: 1px solid #dad7cb;
+					> .name {
+						margin-left: 20px;
+						margin-top: 40px;
+						font-weight: 600;
+					}
+					> .frame {
+						float: right;
+						margin-right: 10px;
+						margin-top: 5px;
+						width: 100px;
+						height: 150px;
+						> img {
+							display: block;
+							width: 100%;
+						}
+					}
+				}
+				> .small-three {
+					width: 250px;
+					height: 380px;
+					padding: 10px;
+					line-height: 1.8;
+					align-items: center;
+					border: 1px solid #dad7cb;
+					> .name {
+						margin-left: 20px;
+						margin-top: 135px;
+						font-weight: 600;
+					}
+					> .frame {
+						float: right;
+						margin-right: 10px;
+						margin-top: 97px;
+						width: 100px;
+						height: 150px;
+						> img {
+							display: block;
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+	} //end of aboutme
+	> #portpolio {
+		position: absolute;
+		left: 50%;
+		margin-left: -650px;
+		margin-top: 1428px;
+		width: 1300px;
+		height: 714px;
+		background-color: #f0ede0;
+		// border: 1px solid #000;
+		> h2 {
+			position: absolute;
+			left: 20px;
+			top: 10px;
+			width: 150px;
+			height: 60px;
+			text-indent: -9999px;
+			background-image: url(./../images/logo.png);
+		}
+		> .harf {
+			position: absolute;
+			right: 0;
+			width: 650px;
+			height: 714px;
+			background-color: #eae8de;
+		}
+		> .title {
+			position: absolute;
+			left: 50%;
+			margin-left: -480px;
+			top: 50%;
+			margin-top: -250px;
+			font-size: 23px;
+			font-weight: 500;
+
+			&:after {
+				position: absolute;
+				left: 50%;
+				margin-left: -120px;
+				margin-top: 10px;
+				display: block;
+				width: 250px;
+				height: 1px;
+				background-color: #bdb8a7;
+				content: '';
+			}
+		}
+		> .container {
+			overflow: hidden;
+			position: absolute;
+			left: 50%;
+			margin-left: -300px;
+			top: 50%;
+			display: flex;
+			width: 700px;
+			margin-top: -150px;
+			// border: 1px solid #000;
+
+			> .sampyo,
+			> .k-dokdo,
+			> .tour {
+				width: 700px;
+				height: 415px;
+				display: flex;
+
+				> .left {
+					position: relative;
+
+					width: 300px;
+					height: 415px;
+
+					> .title {
+						position: absolute;
+						left: 50%;
+						margin-left: -80px;
+						font-size: 40px;
+						font-weight: 800;
+					}
+					> .eng {
+						position: absolute;
+						left: 50%;
+						margin-left: -40px;
+						top: 50%;
+						margin-top: -160px;
+						color: #bdb8a7;
+						font-size: 11px;
+					}
+					> .project {
+						position: absolute;
+						left: 50%;
+						margin-left: -80px;
+						top: 50%;
+						margin-top: -80px;
+					}
+					> .date {
+						position: absolute;
+						left: 50%;
+						margin-left: -50px;
+						top: 50%;
+						margin-top: -60px;
+					}
+					> .tool {
+						position: absolute;
+						left: 50%;
+						margin-left: -80px;
+						top: 50%;
+						margin-top: -40px;
+					}
+					.cont {
+						position: absolute;
+						left: 50%;
+						margin-left: -130px;
+						top: 50%;
+						margin-top: 100px;
+						text-align: center;
+						font-weight: 600;
+					}
+				}
+
+				> .right {
+					> .frame {
+						width: 400px;
+						height: 415px;
+
+						> img {
+							display: block;
+							width: 100%;
+							height: 415px;
+						}
+					}
+				}
+			}
+		}
+
+		> .page {
+			position: absolute;
+			left: 50%;
+			margin-left: 300px;
+			top: 50%;
+			margin-top: 280px;
+		}
+		> .prev {
+			position: absolute;
+			left: 50%;
+			margin-left: 338px;
+			top: 50%;
+			margin-top: 270px;
+			display: block;
+			width: 30px;
+			height: 30px;
+			background-image: url(./../images/sw_pub_prev.png);
+			background-size: cover;
+			text-indent: -9999px;
+		}
+		> .next {
+			position: absolute;
+			left: 50%;
+			margin-left: 368px;
+			top: 50%;
+			margin-top: 270px;
+			display: block;
+			width: 30px;
+			height: 30px;
+			background-image: url(./../images/sw_pub_next.png);
+			background-size: cover;
+			text-indent: -9999px;
+		}
+	} //end of portpolio
+
+	> #uxdesign {
+		position: absolute;
+		left: 50%;
+		margin-left: -650px;
+		margin-top: 2142px;
+		width: 1300px;
+		height: 714px;
+		background-color: #f0ede0;
+
+		> h2 {
+			position: absolute;
+			left: 20px;
+			top: 10px;
+			width: 150px;
+			height: 60px;
+			text-indent: -9999px;
+			background-image: url(./../images/logo.png);
+		}
+		> .harf {
+			width: 650px;
+			height: 714px;
+			background-color: #eae8de;
+		}
+		> h3 {
+			position: absolute;
+			left: 50%;
+			margin-left: -480px;
+			top: 50%;
+			margin-top: -250px;
+			font-size: 23px;
+			font-weight: 500;
+			&:after {
+				position: absolute;
+				left: 50%;
+				margin-left: -120px;
+				margin-top: 10px;
+				display: block;
+				width: 250px;
+				height: 1px;
+				background-color: #bdb8a7;
+				content: '';
+			}
+		}
+		> .frame {
+			position: absolute;
+			left: 50%;
+			margin-left: -480px;
+			top: 50%;
+			margin-top: -150px;
+			width: 500px;
+			height: 400px;
+			> img {
+				display: block;
+				width: 100%;
+				height: 400px;
+			}
+		}
+		> .txt {
+			position: absolute;
+			left: 50%;
+			margin-left: 50px;
+			top: 50%;
+			margin-top: -150px;
+			width: 350px;
+			height: 400px;
+			padding: 20px;
+			font-size: 13px;
+			line-height: 1.7;
+			box-sizing: border-box;
+			background-color: rgba(255, 255, 255, 0.353);
+
+			> .title {
+				font-size: 19px;
+				font-weight: 800;
+			}
+		}
+	}
+
+	> #contact {
+		position: absolute;
+		left: 50%;
+		margin-left: -650px;
+		margin-top: 2856px;
+		width: 1300px;
+		height: 714px;
+		background-color: #dad7cb;
+
+		> h2 {
+			position: absolute;
+			left: 20px;
+			top: 10px;
+			width: 150px;
+			height: 60px;
+			text-indent: -9999px;
+			background-image: url(./../images/logo.png);
+		}
+		> h3 {
+			position: absolute;
+			left: 50%;
+			margin-left: -380px;
+			top: 50%;
+			margin-top: -300px;
+			font-size: 18px;
+			font-weight: 600;
+		}
+		> .cont {
+			position: absolute;
+			left: 50%;
+			margin-left: -500px;
+			top: 50%;
+			margin-top: -200px;
+			width: 400px;
+			height: 450px;
+			padding: 40px;
+			font-size: 16px;
+			line-height: 1.8;
+			background-color: rgba(255, 255, 255, 0.353);
+			border-radius: 50px 0 50px 0;
+			box-sizing: border-box;
+
+			> .hello {
+				font-size: 14px;
+			}
+		}
+		> .frame {
+			position: absolute;
+			left: 50%;
+			margin-left: -70px;
+			top: 50%;
+			margin-top: -120px;
+			width: 600px;
+			height: 400px;
+			> img {
+				display: block;
+				width: 100%;
+			}
+		}
+	} //end of contact
+
+	> aside {
+		display: none;
+		position: fixed;
+		right: 1.8em;
+		bottom: 1.8em;
+		z-index: 1000;
+		> a {
+			display: block;
+			width: 28px;
+			height: 28px;
+			background-image: url(./../images/up_arrow.png);
+			background-size: cover;
+			background-position: center center;
+		}
+	} //end of aside
+
+	footer {
+		position: absolute;
+		left: 50%;
+		margin-left: -650px;
+		margin-top: 3570px;
+		width: 1300px;
+		height: 714px;
+		background-color: #f0ede0;
+		> .frame {
+			position: absolute;
+			left: 50%;
+			margin-left: -450px;
+			top: 50%;
+			margin-top: -150px;
+			width: 1000px;
+			height: 250px;
+			> img {
+				display: block;
+				width: 100%;
+			}
+		}
+		> address {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			height: 80px;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 1.5;
+			text-align: center;
+			background-color: #dad7cb;
+		}
+	}
+}
