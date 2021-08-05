@@ -251,7 +251,7 @@
 	-ms-flex-pack: distribute;
 	justify-content: space-around;
 	width: 1000px;
-	font-size: 13px;
+	font-size: 11px;
 	font-weight: 500;
 }
 
@@ -263,31 +263,42 @@
 	justify-content: space-around;
 
 	width: 1000px;
-	font-size: 13px;
+	font-size: 11px;
 	font-weight: 500;
 }
 #wrap > #aboutme > .othersays > .bigbox > .box > .bigtwo > .small-one,
 #wrap > #aboutme > .othersays > .bigbox > .box > .big > .small-one {
 	width: 250px;
-	height: 380px;
+	height: 340px;
 	padding: 15px;
 	line-height: 1.8;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	border: 1px solid #dad7cb;
+	border: 1px solid #bdb8a7;
 }
-#wrap > #aboutme > .othersays > .bigbox > .box > .bigtwo > .small-one > .name,
-#wrap > #aboutme > .othersays > .bigbox > .box > .big > .small-one > .name {
-	margin-top: 40px;
+#wrap > #aboutme > .othersays > .bigbox > .box > .bigtwo > .small-one > .name {
+	margin-top: 180px;
 	margin-left: 20px;
 	font-weight: 600;
 }
-#wrap > #aboutme > .othersays > .bigbox > .box > .bigtwo > .small-one > .frame,
+
+#wrap > #aboutme > .othersays > .bigbox > .box > .big > .small-one > .name {
+	margin-top: 60px;
+	margin-left: 20px;
+	font-weight: 600;
+}
+#wrap > #aboutme > .othersays > .bigbox > .box > .bigtwo > .small-one > .frame {
+	float: right;
+	margin-right: 10px;
+	margin-top: 127px;
+	width: 100px;
+	height: 150px;
+}
 #wrap > #aboutme > .othersays > .bigbox > .box > .big > .small-one > .frame {
 	float: right;
 	margin-right: 10px;
-	margin-top: 5px;
+	margin-top: 27px;
 	width: 100px;
 	height: 150px;
 }
@@ -299,25 +310,35 @@
 #wrap > #aboutme > .othersays > .bigbox > .box > .bigtwo > .small-two,
 #wrap > #aboutme > .othersays > .bigbox > .box > .big > .small-two {
 	width: 250px;
-	height: 380px;
+	height: 340px;
 	padding: 15px;
 	line-height: 1.8;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	border: 1px solid #dad7cb;
+	border: 1px solid #bdb8a7;
 }
-#wrap > #aboutme > .othersays > .bigbox > .box > .bigtwo > .small-two > .name,
-#wrap > #aboutme > .othersays > .bigbox > .box > .big > .small-two > .name {
+#wrap > #aboutme > .othersays > .bigbox > .box > .bigtwo > .small-two > .name {
 	margin-left: 20px;
 	margin-top: 40px;
 	font-weight: 600;
 }
-#wrap > #aboutme > .othersays > .bigbox > .box > .bigtwo > .small-two > .frame,
-#wrap > #aboutme > .othersays > .bigbox > .box > .big > .small-two > .frame {
+#wrap > #aboutme > .othersays > .bigbox > .box > .big > .small-two > .name {
+	margin-left: 20px;
+	margin-top: 60px;
+	font-weight: 600;
+}
+#wrap > #aboutme > .othersays > .bigbox > .box > .bigtwo > .small-two > .frame {
 	float: right;
 	margin-right: 10px;
 	margin-top: 5px;
+	width: 100px;
+	height: 150px;
+}
+#wrap > #aboutme > .othersays > .bigbox > .box > .big > .small-two > .frame {
+	float: right;
+	margin-right: 10px;
+	margin-top: 27px;
 	width: 100px;
 	height: 150px;
 }
@@ -329,25 +350,36 @@
 #wrap > #aboutme > .othersays > .bigbox > .box > .bigtwo > .small-three,
 #wrap > #aboutme > .othersays > .bigbox > .box > .big > .small-three {
 	width: 250px;
-	height: 380px;
+	height: 340px;
 	padding: 15px;
 	line-height: 1.8;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	border: 1px solid #dad7cb;
+	border: 1px solid #bdb8a7;
 }
-#wrap > #aboutme > .othersays > .bigbox > .box > .bigtwo > .small-three > .name,
-#wrap > #aboutme > .othersays > .bigbox > .box > .big > .small-three > .name {
+#wrap > #aboutme > .othersays > .bigbox > .box > .bigtwo > .small-three > .name {
 	margin-left: 20px;
-	margin-top: 135px;
+	margin-top: 130px;
 	font-weight: 600;
 }
-#wrap > #aboutme > .othersays > .bigbox > .box > .bigtwo > .small-three > .frame,
+
+#wrap > #aboutme > .othersays > .bigbox > .box > .big > .small-three > .name {
+	margin-left: 20px;
+	margin-top: 60px;
+	font-weight: 600;
+}
+#wrap > #aboutme > .othersays > .bigbox > .box > .bigtwo > .small-three > .frame {
+	float: right;
+	margin-right: 10px;
+	margin-top: 90px;
+	width: 100px;
+	height: 150px;
+}
 #wrap > #aboutme > .othersays > .bigbox > .box > .big > .small-three > .frame {
 	float: right;
 	margin-right: 10px;
-	margin-top: 97px;
+	margin-top: 27px;
 	width: 100px;
 	height: 150px;
 }
