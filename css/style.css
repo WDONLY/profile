@@ -893,7 +893,11 @@
 	box-sizing: border-box;
 }
 
-#wrap > #contact > .cont > .hello {
+#wrap > #contact > .cont > .homepage > .size {
+	font-size: 14px;
+}
+
+#wrap > #contact > .cont > .hello > span {
 	font-size: 14px;
 }
 
